@@ -1,0 +1,28 @@
+#results {
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+
+}
+#searchContainer {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+    gap: 20px;
+}
+#searchInput {
+    grid-column: 1/2;
+    width: 300px;
+    padding: 10px;
+    font-size: 16px;
+}
+#searchButton {
+    grid-column: 2/3;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+#searchButton:hover {
+    background-color: #007BFF;
+    color: white;
+}
