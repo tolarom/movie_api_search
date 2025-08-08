@@ -9,7 +9,7 @@ function searchMovie(searchTerm) {
         resultsContainer.innerHTML = '<p>Search term is empty.</p>';
         isSearching = false;
     } else {
-        fetch(`http://www.omdbapi.com/?apikey=89d38438&s=${encodeURIComponent(searchTerm)}`)
+        fetch(`https://www.omdbapi.com/?apikey=89d38438&s=${encodeURIComponent(searchTerm)}`)
             .then(response => response.json())
             .then(data => {
                 if (data.Response === "True") {
