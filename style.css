@@ -28,3 +28,34 @@
     background-color: green;
     color: white;
 }
+#page{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+}
+.prev, .next{
+    font-size: 25px;
+}
+
+#loading-indicator {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 20px;
+    color: #333;
+}
+
+#showMoreBtn, #showLessBtn {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    border: solid 1px;
+    display: none;
+}
+#showMoreBtn:hover, #showLessBtn:hover {
+    background-color: rgb(142, 142, 142);
+    color: rgb(0, 0, 0);
+}
